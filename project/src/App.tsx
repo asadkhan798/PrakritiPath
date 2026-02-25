@@ -14,6 +14,9 @@ import NearbyDoctorsPage from './pages/NearbyDoctorsPage';
 import JobListingsPage from './pages/JobListingsPage';
 import StorePage from './pages/StorePage';
 import HelpConsultationPage from './pages/HelpConsultationPage';
+import AIDiagnosisChatPage from './pages/AIDiagnosisChatPage';
+import HerbPharmacyPage from './pages/HerbPharmacyPage';
+import WellnessTrackerPage from './pages/WellnessTrackerPage';
 import './styles/animations.css';
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
           <Route path="/jobs" element={<JobListingsPage />} />
           <Route path="/store" element={<StorePage />} />
           <Route path="/help" element={<HelpConsultationPage />} />
+          <Route path="/ai-diagnosis" element={<AIDiagnosisChatPage />} />
+          <Route path="/herb-pharmacy" element={<HerbPharmacyPage />} />
+          <Route path="/wellness-tracker" element={<WellnessTrackerPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />

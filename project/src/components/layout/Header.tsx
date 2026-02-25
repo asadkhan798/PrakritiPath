@@ -55,6 +55,9 @@ const Header = () => {
       name: 'Services',
       href: '/services',
       dropdown: [
+        { name: 'AI Diagnosis', href: '/ai-diagnosis' },
+        { name: '24/7 Herb Shop', href: '/herb-pharmacy' },
+        { name: 'Wellness Tracker', href: '/wellness-tracker' },
         { name: 'Health Resources', href: '/health-resources' },
         { name: 'Find Doctors', href: '/nearby-doctors' },
         { name: 'Ayurveda Store', href: '/store' },
